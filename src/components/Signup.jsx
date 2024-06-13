@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Nav from './Nav'
 
 const Signup = () => {
     const[data,setData]=useState(
@@ -34,6 +35,7 @@ const Signup = () => {
             }
   return (
     <div>
+        <Nav/>
         <h1><center><u>SIGNUP HERE</u></center></h1>
         <div className="container">
             <div className="row g-3">
